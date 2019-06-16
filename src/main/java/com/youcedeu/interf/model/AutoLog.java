@@ -29,6 +29,7 @@ private static final long serialVersionUID=1L;
 		this.result = result;
 		this.execTime = execTime;
 	}
+	//≤‚ ‘
 	public int getId() {
 		return id;
 	}
