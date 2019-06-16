@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+    </line>
+    <line>
+      <![CDATA[请求参数:isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+    </line>
+    <line>
+      <![CDATA[接口预期值:$.status=1;$.data.id=1050187]]>
+    </line>
+    <line>
+      <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+    </line>
+    <line>
+      <![CDATA[请求参数:isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=0000000&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+    </line>
+    <line>
+      <![CDATA[接口预期值:$.status=2]]>
+    </line>
+    <line>
+      <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+    </line>
+    <line>
+      <![CDATA[请求参数:isajax=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+    </line>
+    <line>
+      <![CDATA[接口预期值:$.status=1;$.data.id=1050187]]>
+    </line>
+    <line>
+      <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+    </line>
+    <line>
+      <![CDATA[请求参数:email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+    </line>
+    <line>
+      <![CDATA[接口预期值:]]>
+    </line>
+    <line>
+      <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+    </line>
+    <line>
+      <![CDATA[请求参数:isajax=1&remember=@&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+    </line>
+    <line>
+      <![CDATA[接口预期值:$.status=1;$.data.id=1050187]]>
+    </line>
+    <line>
+      <![CDATA[请求接口:http://www.nuandao.com/shopping/cart]]>
+    </line>
+    <line>
+      <![CDATA[请求参数:countdown=1&m=0.369]]>
+    </line>
+    <line>
+      <![CDATA[接口预期值:]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1037" started-at="2019-05-25T23:12:52Z" finished-at="2019-05-25T23:12:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1037" started-at="2019-05-25T23:12:52Z" finished-at="2019-05-25T23:12:53Z">
+      <class name="com.youceedu.api.test.TestRun">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeSuite" is-config="true" duration-ms="5" started-at="2019-05-26T07:12:52Z" finished-at="2019-05-26T07:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-05-26T07:12:52Z" finished-at="2019-05-26T07:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\\Learing_Documents\\app_testcase.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:52Z" finished-at="2019-05-26T07:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="f" duration-ms="5" started-at="2019-05-26T07:12:53Z" data-provider="testCases" finished-at="2019-05-26T07:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入正确的账号及密码登录]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.nuandao.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/public/lazyentrance]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.status=1;$.data.id=1050187]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+            </line>
+            <line>
+              <![CDATA[请求参数:isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+            </line>
+            <line>
+              <![CDATA[接口预期值:$.status=1;$.data.id=1050187]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="f" duration-ms="1" started-at="2019-05-26T07:12:53Z" data-provider="testCases" finished-at="2019-05-26T07:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入正确的账号及错误密码登录]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.nuandao.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/public/lazyentrance]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=0000000&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.status=2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+            </line>
+            <line>
+              <![CDATA[请求参数:isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=0000000&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+            </line>
+            <line>
+              <![CDATA[接口预期值:$.status=2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="f" duration-ms="2" started-at="2019-05-26T07:12:53Z" data-provider="testCases" finished-at="2019-05-26T07:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入正确的账号及正确的密码,但不传remember参数]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.nuandao.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/public/lazyentrance]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[isajax=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.status=1;$.data.id=1050187]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+            </line>
+            <line>
+              <![CDATA[请求参数:isajax=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+            </line>
+            <line>
+              <![CDATA[接口预期值:$.status=1;$.data.id=1050187]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="f" duration-ms="1" started-at="2019-05-26T07:12:53Z" data-provider="testCases" finished-at="2019-05-26T07:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入正确的账号及正确的密码,但不传remember,isajax参数]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.nuandao.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/public/lazyentrance]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+            </line>
+            <line>
+              <![CDATA[请求参数:email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+            </line>
+            <line>
+              <![CDATA[接口预期值:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="f" duration-ms="1" started-at="2019-05-26T07:12:53Z" data-provider="testCases" finished-at="2019-05-26T07:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入正确的账号及正确的密码,将remember=@进行传参]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.nuandao.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/public/lazyentrance]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[isajax=1&remember=@&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.status=1;$.data.id=1050187]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[请求接口:http://www.nuandao.com/public/lazyentrance]]>
+            </line>
+            <line>
+              <![CDATA[请求参数:isajax=1&remember=@&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764]]>
+            </line>
+            <line>
+              <![CDATA[接口预期值:$.status=1;$.data.id=1050187]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="f" duration-ms="0" started-at="2019-05-26T07:12:53Z" data-provider="testCases" finished-at="2019-05-26T07:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[获取购物车信息]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.nuandao.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/shopping/cart]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[countdown=1&m=0.369]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[请求接口:http://www.nuandao.com/shopping/cart]]>
+            </line>
+            <line>
+              <![CDATA[请求参数:countdown=1&m=0.369]]>
+            </line>
+            <line>
+              <![CDATA[接口预期值:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterClass" is-config="true" duration-ms="6" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.youceedu.api.test.TestRun@4b6995df]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-05-26T07:12:53Z" finished-at="2019-05-26T07:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.youceedu.api.test.TestRun -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

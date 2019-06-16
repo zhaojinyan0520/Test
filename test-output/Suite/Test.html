@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 26 07:20:16 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26155 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.youceedu.api.test.TestRun.f()'><b>f</b><br>Test class: com.youceedu.api.test.TestRun<br>Parameters: 1, YES, 输入正确的账号及密码登录, POST, http://www.nuandao.com, /public/lazyentrance, isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764, $.status=1;$.data.id=1050187, , null<br/>
+<a href="#Output-1882349076" onClick='toggleBox("Output-1882349076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1882349076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1882349076">
+请求接口:http://www.nuandao.com/public/lazyentrance<br/>
+请求参数:isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764<br/>
+接口预期值:$.status=1;$.data.id=1050187<br/>
+接口实际返回值:{"status":1,"info":"","data":{"id":"1050187","lastlogin":1558822981,"logins":["exp","logins+1"],"lastip":"112.96.241.79","checktype":1}}<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.youceedu.api.test.TestRun@3cbbc1e0</td></tr>
+<tr>
+<td title='com.youceedu.api.test.TestRun.f()'><b>f</b><br>Test class: com.youceedu.api.test.TestRun<br>Parameters: 2, YES, 输入正确的账号及错误密码登录, POST, http://www.nuandao.com, /public/lazyentrance, isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=0000000&agreeterms=1&itype=&book=1&m=0.12248663395993764, $.status=2, , null<br/>
+<a href="#Output-26970580" onClick='toggleBox("Output-26970580", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26970580" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26970580">
+请求接口:http://www.nuandao.com/public/lazyentrance<br/>
+请求参数:isajax=1&remember=1&email=asfasfasfasdf@qq.com&password=0000000&agreeterms=1&itype=&book=1&m=0.12248663395993764<br/>
+接口预期值:$.status=2<br/>
+接口实际返回值:{"status":2,"info":"\u5bc6\u7801\u9519\u8bef\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165\uff01","data":{"checktype":"1"}}<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.youceedu.api.test.TestRun@3cbbc1e0</td></tr>
+<tr>
+<td title='com.youceedu.api.test.TestRun.f()'><b>f</b><br>Test class: com.youceedu.api.test.TestRun<br>Parameters: 3, YES, 输入正确的账号及正确的密码,但不传remember参数, POST, http://www.nuandao.com, /public/lazyentrance, isajax=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764, $.status=1;$.data.id=1050187, , null<br/>
+<a href="#Output-1766911337" onClick='toggleBox("Output-1766911337", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1766911337" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1766911337">
+请求接口:http://www.nuandao.com/public/lazyentrance<br/>
+请求参数:isajax=1&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764<br/>
+接口预期值:$.status=1;$.data.id=1050187<br/>
+接口实际返回值:{"status":1,"info":"","data":{"id":"1050187","lastlogin":1558822988,"logins":["exp","logins+1"],"lastip":"112.96.241.79","checktype":1}}<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.youceedu.api.test.TestRun@3cbbc1e0</td></tr>
+<tr>
+<td title='com.youceedu.api.test.TestRun.f()'><b>f</b><br>Test class: com.youceedu.api.test.TestRun<br>Parameters: 4, YES, 输入正确的账号及正确的密码,但不传remember,isajax参数, POST, http://www.nuandao.com, /public/lazyentrance, email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764, , , null<br/>
+<a href="#Output-1620823990" onClick='toggleBox("Output-1620823990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1620823990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1620823990">
+请求接口:http://www.nuandao.com/public/lazyentrance<br/>
+请求参数:email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764<br/>
+接口预期值:<br/>
+接口实际返回值:null<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.youceedu.api.test.TestRun@3cbbc1e0</td></tr>
+<tr>
+<td title='com.youceedu.api.test.TestRun.f()'><b>f</b><br>Test class: com.youceedu.api.test.TestRun<br>Parameters: 5, YES, 输入正确的账号及正确的密码,将remember=@进行传参, POST, http://www.nuandao.com, /public/lazyentrance, isajax=1&remember=@&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764, $.status=1;$.data.id=1050187, , null<br/>
+<a href="#Output-1336001042" onClick='toggleBox("Output-1336001042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1336001042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1336001042">
+请求接口:http://www.nuandao.com/public/lazyentrance<br/>
+请求参数:isajax=1&remember=@&email=asfasfasfasdf@qq.com&password=3333333&agreeterms=1&itype=&book=1&m=0.12248663395993764<br/>
+接口预期值:$.status=1;$.data.id=1050187<br/>
+接口实际返回值:{"status":1,"info":"","data":{"id":"1050187","lastlogin":1558826436,"logins":["exp","logins+1"],"lastip":"112.96.241.79","checktype":1}}<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.youceedu.api.test.TestRun@3cbbc1e0</td></tr>
+<tr>
+<td title='com.youceedu.api.test.TestRun.f()'><b>f</b><br>Test class: com.youceedu.api.test.TestRun<br>Parameters: 6, YES, 获取购物车信息, POST, http://www.nuandao.com, /shopping/cart, countdown=1&m=0.369, , , <br/>
+<a href="#Output-1305935114" onClick='toggleBox("Output-1305935114", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1305935114" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1305935114">
+请求接口:http://www.nuandao.com/shopping/cart<br/>
+请求参数:countdown=1&m=0.369<br/>
+接口预期值:<br/>
+接口实际返回值:null<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.youceedu.api.test.TestRun@3cbbc1e0</td></tr>
+</table><p>
+</body>
+</html>
